@@ -26,7 +26,7 @@ namespace Guess_The_Number_Game
 
             do
             {
-
+                attempts = 0;
                 // Welcome user to game, explain rules and generate random number
                 
                 number = rnd.Next(1, 101);
